@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CCTV Camera</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📹 CCTV Control Room</h1>
+
+<div class="camera">
+
+<div id="suspect" class="suspectMove">
+🕴️
+</div>
+
+</div>
+
+<br>
+
+<button onclick="playCamera()">
+▶ Play
+</button>
+
+<button onclick="pauseCamera()">
+⏸ Pause
+</button>
+
+<button onclick="identifySuspect()">
+🔍 Identify
+</button>
+
+<br><br>
+
+<div id="cameraResult"></div>
+
+<br>
+
+<button onclick="location.href='office.html'">
+⬅ Back
+</button>
+
+</div>
+
+<script src="cctv.js"></script>
+<script src="save.js"></script>
+</body>
+</html>

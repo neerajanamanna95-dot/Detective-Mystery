@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safe Lock</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🔐 Secret Safe</h1>
+
+<p>Enter the 4-digit code</p>
+
+<input
+type="password"
+id="code"
+maxlength="4"
+placeholder="****">
+
+<br><br>
+
+<button onclick="checkCode()">
+Unlock Safe
+</button>
+
+<br><br>
+
+<div id="result"></div>
+
+<br>
+
+<button onclick="location.href='office.html'">
+⬅ Back
+</button>
+
+</div>
+
+<script src="puzzle.js"></script>
+<script src="save.js"></script>
+</body>
+</html>

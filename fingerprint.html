@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fingerprint Scanner</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🖐 Fingerprint Scanner</h1>
+
+<p>Scan the fingerprint found at the crime scene.</p>
+
+<div id="fingerprint" class="fingerprint">
+🖐
+</div>
+
+<br>
+
+<button onclick="scanFingerprint()">
+🔍 Scan Fingerprint
+</button>
+
+<br><br>
+
+<div id="scanResult"></div>
+
+<br>
+
+<button onclick="location.href='office.html'">
+⬅ Back to Office
+</button>
+
+</div>
+
+<script src="fingerprint.js"></script>
+<script src="save.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Case 1</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Crime Scene</h1>
+
+<p>Find the hidden clues.</p>
+
+<button onclick="collect('Knife')">🔪 Knife</button>
+
+<button onclick="collect('Phone')">📱 Phone</button>
+
+<button onclick="collect('Blood Sample')">🩸 Blood</button>
+
+<button onclick="collect('Fingerprint')">🖐 Fingerprint</button>
+
+</div>
+
+<script>
+
+let evidence=[];
+
+function collect(item){
+
+if(!evidence.includes(item)){
+
+evidence.push(item);
+
+alert(item+" Collected");
+
+}
+
+if(evidence.length==4){
+
+alert("All Evidence Collected");
+
+}
+
+}
+</script>
+<script src="script.js"></script>
+<script src="save.js"></script>
+</body>
+
+</html>
